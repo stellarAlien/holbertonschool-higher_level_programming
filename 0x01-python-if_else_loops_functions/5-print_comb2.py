@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-for i in range(0, 10):
-    for j in range(0, 10):
-        print("{0:d}{1:d}".format(i, j), end='')
-        if(i == 9 and j == 9):
-            break
-        print("{:s}".format(', '), end='')
+for i in range(0, 100):
+if i != 99:
+print("{:02d},".format(i), end=' ')
+else:
+print("{:02d}".format(i))
