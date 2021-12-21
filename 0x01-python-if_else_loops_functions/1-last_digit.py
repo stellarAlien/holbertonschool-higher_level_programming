@@ -2,8 +2,8 @@
 import random
 number = random.randint(-10000, 10000)
 if(number < 0):
-    cpnumber = number * -1;
-    n = cpnumber % 10
+    cpnumber = number * -1
+    n = -(cpnumber % 10)
 else:
     n = number % 10
 if(n > 5):
