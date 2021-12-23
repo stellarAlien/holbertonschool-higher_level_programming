@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-    import re
+if __name__ == "__main__":
     import sys
-    import hidden_4.pyc
-    names = dir(hiiden_4)
-    for n in names
-    for i in (97, 122):
-        if((re.match("[^__]{2}[\w]{1,}", n) and n[0] == chr(i)):
-                print("{:s}".format(n))
-        
+    import hidden_4
+    for n in dir(hidden_4):
+        if n[:2] != "__":
+            print(n)
