@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    if (sys.argc == 1):
+    if (len(sys.argv) == 1):
         print("0")
-    elif:
+    else:
+        s = 0
         for i in sys.argv[1:]:
             s += int(i)
+        print("{:d}".format(s))
