@@ -4,7 +4,9 @@ def divisible_by_2(my_list=[]):
     k = 0
     for i in my_list:
         if (i % 2 == 0):
-            vlist[k++] = True
+            vlist.append(True)
+            k += 1
         else:
-            vlist[k++] = False
+            vlist.append(False)
+            k += 1
     return(vlist)
