@@ -28,6 +28,10 @@ int is_palindrome(listint_t **head)
 		p = p->next;
 		arr[i++] = p->n;
 	}
+	if (i % 2 == 0)
+	{
+		return (0);
+	}
 	for (j = 0; j < (i / 2); j++)
 	{
 		if (arr[i] != arr[i - j - 1])
