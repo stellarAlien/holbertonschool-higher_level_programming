@@ -8,3 +8,4 @@ Defines class Square
 class Square:
     """Sqaure"""
     pass
+
