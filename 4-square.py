@@ -9,11 +9,11 @@ class Square:
         self.__size = size
 
     def size(self, value):
-        self.__size = value
-        if(type(size) != str):
+        if(type(value) != int):
             raise TypeError("size must be an integer")
         if (not int(size) >= 0):
             raise ValueError("size must be >= 0")
+        self.__size = value
 
     @property
     def size(self):
