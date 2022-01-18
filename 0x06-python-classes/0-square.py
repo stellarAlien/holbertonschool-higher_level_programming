@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """
-this is an empty class named square that doesn't contain any attributes
+Module 0-square
+Defines class Square
 """
 
 
 class Square:
+    """Sqaure"""
     pass
