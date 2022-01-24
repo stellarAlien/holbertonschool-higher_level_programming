@@ -8,7 +8,7 @@ adds perimiter and area computation methods
 class Rectangle:
     """
     rectangle properties are defined
-
+    area and perimeter fnuctions are defined
     """
     def __init__(self, width=0, height=0):
         """ Initialize rectangles """
@@ -50,7 +50,5 @@ class Rectangle:
         return (self.__width + self.__height) * 2
 
     def area(self):
-        """returns area of rect"""
-        if(self.__width == 0 or self.__height == 0):
-            raise ValueError("height is defined but 0")
+        """ returns area of traingle"""
         return (self.__width * self.__height)
