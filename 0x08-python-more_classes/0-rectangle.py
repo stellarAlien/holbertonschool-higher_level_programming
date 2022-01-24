@@ -1,10 +1,11 @@
 #!/bin/bash/python3
-"""module defines a rectangle"""
+"""
+module 0
+CONTAINS DEFINITON OF RECTANGLE CLASS
+CLASS STILL EMPTY IN THIS VERSION
+"""
 
 
-class Rectangle{
-        """rectangle class that has rectangle properties"""
-        def __init__(self, t, w, x, y):
-        """initilaize a rectangle"""
-        self.t, self.w, self.x, self.y = 0
-        }
+class Rectangle:
+        """rectangle class that has rectangle properties: None"""
+        pass
