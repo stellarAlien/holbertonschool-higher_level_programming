@@ -10,6 +10,9 @@ class Rectangle:
     rectangle properties are defined
     area and perimeter fnuctions are defined
     """
+
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """ Initialize rectangles """
         self.width = width
@@ -68,6 +71,7 @@ class Rectangle:
     def __repr__(self):
         """ String representation to recreate new instance """
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
+
     def __del__(self):
         """ Deletes instance of class """
         print("Bye rectangle...")
