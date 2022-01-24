@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
 """
 module 0
 CONTAINS DEFINITON OF RECTANGLE CLASS
