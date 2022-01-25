@@ -1,5 +1,5 @@
 #Genral
-** Prerequisites
+**Prerequisites
 - What is OOP
 - “first-class everything”
 - What is a class
