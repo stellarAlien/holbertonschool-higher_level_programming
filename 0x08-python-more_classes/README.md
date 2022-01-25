@@ -1,5 +1,7 @@
-#Genral
-** Prerequisites
+# Genral
+A project where you build a class and define it's methods
+## Prerequisites
+
 - What is OOP
 - “first-class everything”
 - What is a class
