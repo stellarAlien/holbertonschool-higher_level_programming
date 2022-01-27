@@ -73,6 +73,11 @@ class Rectangle:
         """ String representation to recreate new instance """
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
 
+    def __del__(self):
+        """ Deletes instance of class """
+        print("Bye rectangle...")
+        type(self).number_of_instances -= 1
+
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         if not isinstance(rect_1, Rectangle):
@@ -81,4 +86,8 @@ class Rectangle:
             raise TypeError("rect_2 must be an instance of Rectangle")
         if rect_1.area() >= rect_2.area():
             return rect_1
-        return rect_2
+            del(rect_1)
+            del(rect_2)
+        return(rect_2)
+        del(rect_1)
+        del(rect_2)
