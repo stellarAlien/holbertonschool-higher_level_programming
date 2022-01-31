@@ -18,8 +18,10 @@ class BaseGeometry:
     def integer_validator(self, name, value):
         if(not (type(value) is int)):
             raise TypeError("<name> must be an integer")
+            return
         if(value <= 0):
             raise ValueError("<name> must be greater than 0")
+            return
         return(value)
 
 
