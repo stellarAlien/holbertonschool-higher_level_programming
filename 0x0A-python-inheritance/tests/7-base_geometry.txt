@@ -1,0 +1,15 @@
+# run test with  python3 -m doctest -v ./tests/[filename].txt
+>>> BaseGeometry =  __import__('7-base_geometry').BaseGeometry
+
+SUCCESS CASES:
+
+	test basic features as intended
+	>>>x = BaseGeometry()
+	>>>x.integer_validator("ut", 656)
+
+FAIL CASES:
+	are method not implemented ??
+	>>>x = BaseGeometry()
+	>>>x.area()
+	
+	
