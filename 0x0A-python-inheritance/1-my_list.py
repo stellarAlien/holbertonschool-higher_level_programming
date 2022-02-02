@@ -9,5 +9,5 @@ class MyList(list):
     """class that inherits from list"""
 
     def print_sorted(self):
-        """returns list on ints in sorted in ascending order"""
-        return(list.sort(self))
+        """prints list on ints in sorted in ascending order"""
+        print(sorted(self))
