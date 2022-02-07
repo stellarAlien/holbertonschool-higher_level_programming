@@ -32,28 +32,28 @@ class Rectangle(Base):
     def update(self, *args, **kwargs):
         """updates values of rectangle as provided"""
         if(args):
-            for i, j in enumerate(*args):
-                if k == 0:
+            for i, j in enumerate(args):
+                if i == 0:
                     self.id = j
-                if k == 1:
-                    self.__width = j
-                if k == 2:
-                    self.__height = j
-                if k == 3:
-                    self.__x = j
-                if k == 4:
-                    self.__y = j
+                if i == 1:
+                    self.width = j
+                if i == 2:
+                    self.height = j
+                if i == 3:
+                    self.x = j
+                if i == 4:
+                    self.y = j
         else:
             if "id" in kwargs:
                 self.id = kwargs["id"]
             if "width" in kwargs:
-                self.__width = kwargs["width"]
+                self.width = kwargs["width"]
             if "height" in kwargs:
-                self.__height = kwargs["height"]
+                self.height = kwargs["height"]
             if "x" in kwargs:
-                self.__x = kwargs["x"]
+                self.x = kwargs["x"]
             if "y" in kwargs:
-                self.__y = kwargs["y"]
+                self.y = kwargs["y"]
 
     def to_dictionary(self):
         """dictionary representation of rectangle"""
@@ -67,12 +67,8 @@ class Rectangle(Base):
 
     def area(self):
         """returns rectangle's area"""
-        return self.__width * self.__height
-
-    @property
-    def area(self):
-        """returns area of rectangle"""
-        return self.__width * self.__height
+        x = self.__width * self.__height
+        return x
 
     @property
     def width(self):
