@@ -34,4 +34,3 @@ class Base():
         elif cls.__name__ == "Square":
             with open("Rectangle.json", "w") as f:
                 json.loads(list_objs, f)
-

@@ -24,7 +24,7 @@ class Rectangle(Base):
             print()
         for i in range(self.__height):
             for p in range(self.__x):
-                print("",end=" ")
+                print("", end=" ")
             for j in range(self.__width):
                 print("#", end="")
             print()
@@ -133,5 +133,5 @@ class Rectangle(Base):
 
     def __str__(self):
         """returns rectangle instance properties"""
-        return"[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(\
+        return"[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(
                 self.id, self.__x, self.__y, self.__width, self.__height)
