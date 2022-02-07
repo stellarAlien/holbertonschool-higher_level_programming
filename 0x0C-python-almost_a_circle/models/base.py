@@ -2,12 +2,13 @@
 """
 definiton of Base Class
 """
+import json
 
 
 class Base():
     """Base class which all subsquqent classes will depend on"""
 
-    __nb_objects = 0
+    __nb_objects = 1
 
     def __init__(self, id=None):
         """init  class"""
@@ -16,3 +17,21 @@ class Base():
         elif(id is None):
             self.id = Base.__nb_objects
             Base.__nb_objects = Base.__nb_objects + 1
+
+    def to_json_string(list_dictionaries):
+        """returns json rep of list of dicts"""
+        if((list_dictionaries is None) or len(list_dictionaries) == 0):
+            list_dictionaries = []
+        return json.dumps(list_dictionaries)
+
+    def save_to_file(cls, list_objs):
+        """write repr of obj to a file"""
+        if((list_objs is None) or len(list_objs) == 0):
+            list_objs = []
+        if cls.__name__ == "Rectangle":
+            with open("Rectangle.json", "w") as f:
+                json.loads(list_objs, f)
+        elif cls.__name__ == "Square":
+            with open("Rectangle.json", "w") as f:
+                json.loads(list_objs, f)
+
