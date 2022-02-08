@@ -11,7 +11,6 @@ class Square(Rectangle):
     def __init__(self, size, x=0, y=0, id=None):
         """init square"""
         super().__init__(size, size, x, y, id)
-        self.size = size
 
     @property
     def size(self):
@@ -20,9 +19,9 @@ class Square(Rectangle):
 
     @size.setter
     def size(self, value):
-        """sets the size of the suare"""
-        self.__width = value
-        self.__height = value
+        """sets the size of the suarei"""
+        self.width = value
+        self.height = value
 
     def __str__(self):
         """represents rectangle on stdout"""
