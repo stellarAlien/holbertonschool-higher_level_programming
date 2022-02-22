@@ -20,7 +20,7 @@ class Base():
 
     def to_json_string(list_dictionaries):
         """returns json rep of list of dicts"""
-        if((list_dictionaries is None) or list_dictionaries == []):
+        if((list_dictionaries is None) or list_dictionaries == [] or list_dictionaries == "[]"):
             list_dictionaries = "[]"
         return json.dumps(list_dictionaries)
 
