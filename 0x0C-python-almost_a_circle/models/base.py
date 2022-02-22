@@ -17,14 +17,16 @@ class Base():
         elif(id is None):
             self.id = Base.__nb_objects
             Base.__nb_objects = Base.__nb_objects + 1
+
     @staticmethod
     def to_json_string(list_dictionaries):
         """returns json rep of list of dicts"""
-        if((list_dictionaries is None) or list_dictionaries == [] or list_dictionaries == "[]"):
+        if((list_dictionaries is None) or list_dictionaries == []
+                or list_dictionaries == "[]"):
             return "[]"
         else:
             return json.dumps(list_dictionaries)
-    
+
     def save_to_file(cls, list_objs):
         """write repr of obj to a file"""
         if((list_objs is None) or len(list_objs) == 0):
@@ -35,9 +37,11 @@ class Base():
         elif cls.__name__ == "Square":
             with open("Rectangle.json", "w") as f:
                 json.loads(list_objs, f)
+
     def from_json_string(json_string):
         """ return json rep of json as list"""
-        if((json_string is None) or (json_string == "") or (json_string == "{}")):
+        if((json_string is None) or (json_string == "")
+                or (json_string == "{}")):
             li = list()
         else:
             li = json.loads(json_string)
