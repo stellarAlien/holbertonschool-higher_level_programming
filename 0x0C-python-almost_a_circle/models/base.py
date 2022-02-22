@@ -17,7 +17,7 @@ class Base():
         elif(id is None):
             self.id = Base.__nb_objects
             Base.__nb_objects = Base.__nb_objects + 1
-
+    @staticmethod
     def to_json_string(list_dictionaries):
         """returns json rep of list of dicts"""
         if((list_dictionaries is None) or list_dictionaries == [] or list_dictionaries == "[]"):
