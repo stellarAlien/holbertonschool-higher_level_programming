@@ -20,8 +20,8 @@ class Base():
 
     def to_json_string(list_dictionaries):
         """returns json rep of list of dicts"""
-        if((list_dictionaries is None) or len(list_dictionaries) == 0):
-            list_dictionaries = []
+        if((list_dictionaries is None) or list_dictionaries == []:
+            list_dictionaries = "[]"
         return json.dumps(list_dictionaries)
 
     def save_to_file(cls, list_objs):
@@ -34,3 +34,10 @@ class Base():
         elif cls.__name__ == "Square":
             with open("Rectangle.json", "w") as f:
                 json.loads(list_objs, f)
+    def from_json_string(json_string):
+        """ return json rep of json as list"""
+        if((json_string is None) or (json_string == "") or (json_string == "{}")):
+            li = list()
+        else:
+            li = json.loads(json_string)
+            return list
