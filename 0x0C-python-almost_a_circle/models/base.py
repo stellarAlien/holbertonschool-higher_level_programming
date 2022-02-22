@@ -21,9 +21,10 @@ class Base():
     def to_json_string(list_dictionaries):
         """returns json rep of list of dicts"""
         if((list_dictionaries is None) or list_dictionaries == [] or list_dictionaries == "[]"):
-            list_dictionaries = "[]"
-        return json.dumps(list_dictionaries)
-
+            return "[]"
+        else:
+            return json.dumps(list_dictionaries)
+    
     def save_to_file(cls, list_objs):
         """write repr of obj to a file"""
         if((list_objs is None) or len(list_objs) == 0):
