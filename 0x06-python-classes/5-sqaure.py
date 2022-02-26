@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """ Module 4-square class Square """
 
-import Rectangle from rectangle
-
 
 class Square:
     """ initializes size value and verifies it"""
