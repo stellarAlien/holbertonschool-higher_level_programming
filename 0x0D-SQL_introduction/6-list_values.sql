@@ -1,2 +1,2 @@
--- list * from frst_table
-select * FROM hbtn_0c_0.first_table;
+-- all rows from first_table
+select * FROM first_table;
