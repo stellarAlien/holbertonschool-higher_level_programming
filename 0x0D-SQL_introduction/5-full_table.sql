@@ -1,2 +1,2 @@
 -- show without describe or explain
-SHOW CREATE TABLE first_table\G;
+SHOW CREATE TABLE first_table;
