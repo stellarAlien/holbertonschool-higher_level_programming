@@ -3,6 +3,6 @@
 
 
 def write_file(filename="", text=""):
-    """write in fille"""
+    """open file in write mode"""
     with open(filename, mode="w", encoding="UTF8") as f:
         return (f.write(text))
