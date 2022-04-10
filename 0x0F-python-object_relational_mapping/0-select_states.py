@@ -21,7 +21,7 @@ if __name__ == "__main__":
     except Error as e:
         print(e)
     # query to list all state names
-    query = ("SELECT * FROM states ORDER BY name;")
+    query = ("SELECT * FROM states ORDER BY id;")
     try:
         cursor.execute(query)
         connect.commit()
