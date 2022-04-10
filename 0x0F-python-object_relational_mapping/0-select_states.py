@@ -21,13 +21,13 @@ if __name__ == "__main__":
     except Error as e:
         print(e)
     # query to list all state names
-    query = ("SELECT DISTINCT(name) FROM states ORDER BY name;")
+    query = ("SELECT * FROM states ORDER BY name;")
     try:
         cursor.execute(query)
         connect.commit()
         stt = cursor.fetchall()
-        for row in stt:
-            print("({:d}, {:s})".format(row["id"], row["name"]))
+        for row in stt.fetchall():
+            print("({:d}, {:s})".format(row[0], row[1]))
     except Error as e:
         print(e)
     finally:
