@@ -13,9 +13,9 @@ if __name__ == "__main__":
     """
     try:
         connect = MySQLdb.connector.connect(host="localhost",
-                                            user=str(sys.argv[1]),
-                                            password=str(sys.argv[2]),
-                                            database=str(sys.argv[3]),
+                                            user=sys.argv[1],
+                                            password=sys.argv[2],
+                                            database=sys.argv[3],
                                             port="3306")
         cursor = connect.cursor()
     except Error as e:
