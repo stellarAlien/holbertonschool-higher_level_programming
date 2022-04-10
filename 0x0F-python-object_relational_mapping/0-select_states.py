@@ -2,10 +2,6 @@
 """
 script that lists all states from the database hbtn_0e_0_usa
 """
-
-#from distutils.log import error
-#from dbm import _Database
-#from ssl import _PasswordType
 from mysql.connector import Error
 import MySQLdb
 import sys
@@ -16,9 +12,11 @@ if __name__ == "__main__":
     all the states
     """
     try:
-        connect =MySQLdb.connector.connect(host="localhost", 
-        user = str(sys.argv[1]), 
-        password = str(sys.argv[2]), database= str(sys.argv[3]), port = "3306")
+        connect = MySQLdb.connector.connect(host="localhost",
+                                            user=str(sys.argv[1]),
+                                            password=str(sys.argv[2]),
+                                            database=str(sys.argv[3]),
+                                            port="3306")
         cursor = connect.cursor()
     except Error as e:
         print(e)
@@ -31,8 +29,7 @@ if __name__ == "__main__":
         for row in stt:
             print("({:d}, {:s})".format(row["id"], row["name"]))
     except Error as e:
-            print(e)
+        print(e)
     finally:
         cursor.close()
         connect.close()
-
