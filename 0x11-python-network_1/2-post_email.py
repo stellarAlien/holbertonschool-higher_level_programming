@@ -6,7 +6,6 @@
  , and displays the body of the response (decoded in utf-8)
 """
 
-import email
 import urllib.request
 from sys import argv
 import urllib.parse
