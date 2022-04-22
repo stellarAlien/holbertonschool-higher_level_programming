@@ -6,7 +6,13 @@
 import urllib
 from sys import argv
 import urllib.error
+import urllib.request
 
 if "__name__" == "__main__":
-    with urllib.request.urlopen(sys.argv[1]) as response:
-        print(response.status_code)
+    url = argv[1]
+    r = request.Request(url)
+    try:
+        with urllib.request.urlopen(r) as response:
+            print(response.read().decode('utf-8'))
+    except urllib.error.HTTPError as e:
+        print("Error code: {}".format(e.code))
