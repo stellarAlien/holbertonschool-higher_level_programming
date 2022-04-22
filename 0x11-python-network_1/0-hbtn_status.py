@@ -10,4 +10,4 @@ if __name__ == "__main__":
     print("Body response:")
     print("	- type {:}".format(type(r)))
     print("	- content: {:}".format(r))
-    print("	- utf8 content: OK" if r.decode('utf8') else "")
+    print("	- utf8 content: {:}" r.decode('utf8'))
