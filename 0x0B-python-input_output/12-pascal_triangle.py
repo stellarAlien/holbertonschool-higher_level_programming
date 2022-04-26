@@ -15,7 +15,9 @@ def pascal_triangle(n):
         return [[1]]
 
     triangle = [[1]]
-    for rows in range(n-1):
+    for rows in range(2 ):
+        print(triangle)
         triangle.append([a+b for a, b
                          in zip([0] + triangle[-1], triangle[-1] + [0])])
-    return triangle
+
+
