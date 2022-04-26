@@ -5,7 +5,7 @@ based on given credentials.
 """
 import sys
 import requests
-from requests.ath import HTTPBasicAuth
+from requests.auth import HTTPBasicAuth
 
 if __name__ == "__main__":
     auth = HTTPBasicAuth(sys.argv[1], sys.argv[2])
