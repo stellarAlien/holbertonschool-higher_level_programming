@@ -1,36 +1,39 @@
 #!/usr/bin/python3
-from mysql.connector import Error
+"""
+script that takes in the name of a
+state as an argument and lists all cities of that state
+"""
+
+
 import MySQLdb
-import sys
+from sys import argv
 
 if __name__ == "__main__":
-    """
-    fetch state data 
-    according to name
-    """
-    try:
-        connect =MySQLdb.connector.connect(host="localhost", 
-        user = str(sys.argv[1]), 
-        password = str(sys.argv[2]), database= str(sys.argv[3]), 
-        port = "3306")
 
-        cursor = connect.cursor()
-        s = str(sys.argv[3]).split(Separator=";", maxsplit=1)
-    except Error as e:
-        print(e)
-    # query to list specific state name
-    query = ("""SELECT cities.name
-                 FROM states
-                 INNER JOIN cities ON states.id = cities.state_id
-                 WHERE states.name LIKE '%s'
-                 ORDER BY cities.id""")
-    try:
-        cursor.execute(query, s)
-        for row in cursor.fetchall():
-            print(", {:s}".format(row[0]))
+    db = MySQLdb.connect(
+        host="localhost",
+        port=3306,
+        user=argv[1],
+        password=argv[2],
+        database=argv[3],
 
-    except Error as e:
-            print(e)
-    finally:
-        cursor.close()
-        connect.close()
+    )
+    cursor = db.cursor()
+    sql = """SELECT cities.name
+            FROM cities
+            JOIN states
+            ON states.id = cities.state_id
+            WHERE states.name = %s
+            ORDER BY cities.id"""
+    cursor.execute(sql, (argv[4], ))
+    results = cursor.fetchall()
+    if results == ():
+        print("")
+    else:
+        for i in range(len(results)):
+            if i == len(results)-1:
+                print(results[i][0])
+            else:
+                print("{}, ".format(results[i][0]), end="")
+    cursor.close()
+    db.close()

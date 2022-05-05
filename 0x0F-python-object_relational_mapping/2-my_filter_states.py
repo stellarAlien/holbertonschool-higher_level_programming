@@ -1,29 +1,29 @@
 #!/usr/bin/python3
-from mysql.connector import Error
+"""
+Write a script that takes in an argument and displays
+all values in the states table of
+hbtn_0e_0_usa where name matches the argument.
+"""
+
+
 import MySQLdb
-import sys
+from sys import argv
 
 if __name__ == "__main__":
-    """
-    fetch state data 
-    according to name
-    """
-    try:
-        connect =MySQLdb.connector.connect(host="localhost", 
-        user = str(sys.argv[1]), 
-        password = str(sys.argv[2]), database= str(sys.argv[3]), port = 3306)
-        cursor = connect.cursor()
-        s = str(sys.argv[3])
-    except Error as e:
-        print(e)
-    # query to list specific state name
-    query = ("SELECT * FROM states WHERE (name like %s) ORDER BY states.id")
-    try:
-        cursor.execute(query, s)
-        for row in cursor.fetchall():
-            print(row)
-    except Error as e:
-            print(e)
-    finally:
-        cursor.close()
-        connect.close()
+
+    db = MySQLdb.connect(
+        host="localhost",
+        port=3306,
+        user=argv[1],
+        password=argv[2],
+        database=argv[3],
+    )
+    cursor = db.cursor()
+    cursor.execute(
+        "SELECT * FROM states WHERE Name LIKE BINARY '{}' ORDER BY id ASC"
+        .format(argv[4]))
+    results = cursor.fetchall()
+    for row in results:
+        print(row)
+    cursor.close()
+    db.close()

@@ -1,25 +1,21 @@
 #!/usr/bin/python3
 """
-construct tables from base class
-ORM Power
+python file that contains the class definition of a State
+and an instance Base = declarative_base()
 """
-from sqlalchemy import (Integer, create_engine, Column, String)
-from sqlalchemy.orm import declarative_base
-import sys
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
 
 
-
-if __name__ == "__main__":
-    
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(sys.argv[1], 
-    sys.argv[2], sys.argv[3]), pool_pre_ping=True)
-
-    Base = declarative_base()
-
-    class State(Base):
-        """
-        ORM repr of states table
-        """
-        __tablename__ = "states"
-        id = Column(Integer, nullable=False, unique=True, Primary_Key=True, autoincrement=True)
-        name = Column(String(128), nullable=False)
+class State(Base):
+    """
+    Represents a state for a MySQL database.
+    __tablename__ (str): The name of the MySQL table to store States.
+    id (sqlalchemy.Integer): The state's id.
+    name (sqlalchemy.String): The state's name.
+    """
+    __tablename__ = "states"
+    id = Column(Integer, primary_key=True)
+    name = Column(String(128), nullable=False)

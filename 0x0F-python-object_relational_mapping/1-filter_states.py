@@ -1,29 +1,26 @@
 #!/usr/bin/python3
+"""
+script that lists all states from the database hbtn_0e_0_usa
+"""
 
-from mysql.connector import Error
+
 import MySQLdb
-import sys
-if __name__ == "main":
-    """
-    execute 
-    """
-    try:
-        connect = MySQLdb.connector.connect(host="localhost", 
-        user = sys.argv[1]), 
-        password = sys.argv[2]), database= str(sys.argv[3]), port = 3306)
-        cursor = connect.cursor()
-    except Error as e:
-        print(e)
-    # query to list all state names starting with N
-    query = ("SELECT name from states WHERE name like 'N%';")
-    try:
-        cursor.execute(query)
-        connect.commit()
-        stt = cursor.fetchall()
-        for row in stt:
-            print(row)
-    except Error as e:
-            print(e)
-    finally:
-        cursor.close()
-        connect.close()
+from sys import argv
+
+if __name__ == "__main__":
+
+    db = MySQLdb.connect(
+        host="localhost",
+        port=3306,
+        user=argv[1],
+        password=argv[2],
+        database=argv[3],
+    )
+    cursor = db.cursor()
+    sql = "SELECT * FROM states WHERE Name LIKE BINARY 'N%' ORDER BY id "
+    cursor.execute(sql)
+    results = cursor.fetchall()
+    for row in results:
+        print(row)
+    cursor.close()
+    db.close()

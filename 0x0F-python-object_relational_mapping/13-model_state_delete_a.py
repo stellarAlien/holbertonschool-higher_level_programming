@@ -1,31 +1,27 @@
 #!/usr/bin/python3
+"""
+Script that lists all State objects from the database
+"""
 
-"""
-starting to harvest orm power
-"""
-from msilib.schema import Error
+from sys import argv
 from model_state import Base, State
-import sys
-from sqlalchemy import engine, create_engine
-from sqlalchemy.orm import sessionmaker, Error
-
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine
 
 if __name__ == "__main__":
-    """
-    search state by name
-    """
-    user = sys.argv[1]
-    passwd = sys.argv[2]
-    db = sys.argv[3]
-    
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(user, passwd, db), 
-    pool_pre_ping=True)
-    Base.metadata.create_all(engine)
-    session=sessionmaker(bind=engine)
 
-    try:
-        stt = session.query.filter_by('a' in State.name).fetch_all()
-        session.delete(stt)
-        session.commit()
-    except Error as E:
-        print(E)
+    user = argv[1]
+    password = argv[2]
+    database = argv[3]
+
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format
+                           (user, password, database), pool_pre_ping=True)
+    Base.metadata.create_all(engine)
+
+    session = Session(engine)
+    deletes = session.query(State).order_by(State.id).all()
+    for row in deletes:
+        if 'a' in row.name:
+            session.delete(row)
+    session.commit()
+    session.close()

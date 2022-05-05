@@ -1,25 +1,27 @@
 #!/usr/bin/python3
 """
-print all City objects from hbtn_0e_14_usa
+Script that lists all State objects from the database
 """
+
+from sys import argv
 from model_state import Base, State
-from model_city import City
-import sys
-from sqlalchemy import engine, create_engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine
+
 if __name__ == "__main__":
-    user = sys.argv[1]
-    passwd = sys.argv[2]
-    db = sys.argv[3]
-    
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(user, passwd, db), 
-    pool_pre_ping=True)
+
+    user = argv[1]
+    password = argv[2]
+    database = argv[3]
+
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format
+                           (user, password, database), pool_pre_ping=True)
     Base.metadata.create_all(engine)
-    session=sessionmaker(bind=engine)
-    city = session.query(State.name, City.id, City.name).filter_by(State.id == City.state_id).order_by(City.id)
-    for row in city:
-        print("{:s}: ({:d}) {:s}".format(row[0], row[1], row[2]))
+
+    session = Session(engine)
+    deletes = session.query(State).order_by(State.id).all()
+    for row in deletes:
+        if 'a' in row.name:
+            session.delete(row)
+    session.commit()
     session.close()
-
-
-

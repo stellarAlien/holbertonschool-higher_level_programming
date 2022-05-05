@@ -1,35 +1,28 @@
 #!/usr/bin/python3
 """
-starting to harvest orm power
+Script that lists all State objects from the database
 """
-from model_state import Base, State
-import sys
-from sqlalchemy import engine, create_engine, query
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 
+from sys import argv
+from model_state import Base, State
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine
 
 if __name__ == "__main__":
-    """
-    get state by state id
-    """
-    user = sys.argv[1]
-    passwd = sys.argv[2]
-    db = sys.argv[3]
-    
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(user, passwd, db), 
-    pool_pre_ping=True)
+
+    user = argv[1]
+    password = argv[2]
+    database = argv[3]
+    state_name = argv[4]
+
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format
+                           (user, password, database), pool_pre_ping=True)
     Base.metadata.create_all(engine)
-    session=sessionmaker(bind=engine)
-    
-    try:
-        name = str(str(sys.argv[4]))
-    except:
-        print("name doesn't figure in the command")
-    try:
-        state = session.query().filter_by(name=str(sys.argv[4])).first()
-        if state:
-            print("{:d}".format(State.id))
-    except:
+
+    session = Session(engine)
+    state = session.query(State).filter(State.name == state_name).first()
+    if state is not None:
+        print("{}".format(state.id))
+    else:
         print("Not found")
     session.close()
