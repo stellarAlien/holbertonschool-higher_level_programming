@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 script that lists all states from the database hbtn_0e_0_usa
+it uses exec but mistake may be documentation
 """
 from mysql.connector import Error
 import MySQLdb
