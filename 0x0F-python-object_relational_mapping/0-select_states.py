@@ -11,25 +11,15 @@ if __name__ == "__main__":
     connect to hbtn_0e_0_usa and list
     all the states
     """
-    try:
-        connect = MySQLdb.connector.connect(host="localhost",
-                                            user=sys.argv[1],
-                                            password=sys.argv[2],
-                                            database=sys.argv[3],
-                                            port="3306")
-        cursor = connect.cursor()
-    except Error as e:
-        print(e)
-    # query to list all state names
-    query = ("SELECT * FROM states ORDER BY id;")
-    try:
-        cursor.execute(query)
-        connect.commit()
-        stt = cursor.fetchall()
-        for row in stt.fetchall():
-            print("({:d}, {:s})".format(row[0], row[1]))
-    except Error as e:
-        print(e)
-    finally:
-        cursor.close()
-        connect.close()
+    db = MySQLdb.connect(host="localhost",
+                         port=3306,
+                         user=argv[1],
+                         passwd=argv[2],
+                         db=argv[3])
+    #set cursor
+    cursor = db.cursor()
+    cursor.execute("SELECT * FROM states ORDER BY id ASC")
+    for row in cursor.fetchall():
+        print(row)
+    cursor.close()
+    db.close()
