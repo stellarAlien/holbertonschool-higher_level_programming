@@ -189,3 +189,269 @@ git push
 git branch -main
 git branch
 tcpdump
+cp AirBnB_clone_v2/ AirBnB_clone_v2_aux
+cp -r  AirBnB_clone_v2/ AirBnB_clone_v2_aux
+ls
+rm -rf AirBnB_clone_v2
+git add AirBnB_clone_v2
+git clone https://github.com/justinmajetich/AirBnB_clone.git
+git add AirBnB_clone
+git init AirBnB_clone
+git init AirBnB_clone_v2
+ls
+cd AirBnB_clone
+ls
+cd 
+rm -rf AirBnB_clone
+git pull
+git fetchg
+git fetch
+ls
+git pull
+git pull origin main
+git add AirBnB_clone_v2
+cd AirBnB_clone_v2
+cd
+cd AirBnB_clone_v2 
+ms
+ls
+rm .
+rmdir .
+cd
+rmdir AirBnB_clone_v2
+cd  AirBnB_clone_v2
+ls -la
+cd
+rm -rf 
+lq
+ls
+rm -rf AirBnB_clone_v2
+git pull https://github.com/justinmajetich/AirBnB_clone.git
+git pull origin https://github.com/justinmajetich/AirBnB_clone.git 
+git pull master https://github.com/justinmajetich/AirBnB_clone.git 
+git pull  https://github.com/justinmajetich/AirBnB_clone.git origin
+git branch
+git add .
+mv AirBnB_clone_v2_aux/ hbnb
+git pull  https://github.com/justinmajetich/AirBnB_clone.git origin
+ 
+
+git rm --cached -f hbnb
+ls
+git pull  https://github.com/justinmajetich/AirBnB_clone.git origin
+git checkout main
+ls
+git pull https://github.com/justinmajetich/AirBnB_clone.git
+git clone https://github.com/justinmajetich/AirBnB_clone.git
+ls
+mv AirBnB_clone/ AirBnB_clone_v2
+git add AirBnB_clone_v2/
+ls
+cd AirBnB_clone_v2/
+ls
+git add .
+git commit -m"first commit"
+git add AirBnB_clone_v2/
+cd AirBnB_clone_v2/
+git add README.md 
+git commit -m"comment"
+cd
+rm -rf AirBnB_clone_v2/
+git clone https://github.com/stellarAlien/AirBnB_clone_v2.git
+cd AirBnB_clone_v2/
+ls
+git clone https://github.com/justinmajetich/AirBnB_clone.git
+ls
+mv *.* AirBnB_clone/ .
+mv  AirBnB_clone/* .
+ls
+rm -rf AirBnB_clone/
+ls
+git add .
+git commit -m"v2"
+git push
+cd AirBnB_clone_v2/
+ls
+cd data/
+ls
+cd web_static/
+mkdir releases
+mkdir shared
+cd releases/
+mkdir test
+cd test/
+vim index.html
+cd ../../../
+ln -s <HEAD>
+<TITLE>Basic HTML Sample Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="WHITE">
+<CENTER>
+<H1>A Simple Sample Web Page</H1>
+<H2>Demonstrating a few HTML features</H2>
+</CENTER>
+HTML is really a very simple language. It consists of ordinary text, with commands that are enclosed by "<" and ">" characters, or bewteen an "&" and a ";". <P>
+You don't really need to know much HTML to create a page, because you can copy bits of HTML from other pages that do what you want, then change the text!<P>
+ 
+
+This page shows on the left as it appears in your browser, and the corresponding HTML code appears on the right. The HTML commands are linked to explanations of what they do.
+ 
+
+ 
+
+<H3>Line Breaks</H3>
+
+HTML doesn't normally use line breaks for ordinary text. A white space of any size is treated as a single space. This is because the author of the page has no way of knowing the size of the reader's screen, or what size type they will have their browser set for.<P>
+
+ 
+
+If you want to put a line break at a particular place, you can use the "<BR>" command, or, for a paragraph break, the "<P>" command, which will insert a blank line. The heading command ("<4></4>") puts a blank line above and below the heading text.
+
+ 
+
+<H4>Starting and Stopping Commands</H4>
+
+Most HTML commands come in pairs: for example, "<H4>" marks the beginning of a size 4 heading, and "</H4>" marks the end of it. The closing command is always the same as the opening command, except for the addition of the "/".<P>
+
+ 
+
+Modifiers are sometimes included along with the basic command, inside the opening command's < >. The modifier does not need to be repeated in the closing command.
+<H1>This is a size "1" heading</H1>
+<H2>This is a size "2" heading</H2>
+<H3>This is a size "3" heading</H3>
+<H4>This is a size "4" heading</H4>
+<H5>This is a size "5" heading</H5>
+<H6>This is a size "6" heading</H6>
+<center>
+<H4>Copyright © 1997, by
+<A HREF="https://www.sheldonbrown.com/index.html">Sheldon Brown</A>
+</H4>
+ln -s /data/web_static/current /data/web_static/releases/test/
+ls
+cd web_static/
+ls
+cd ../
+ln -s /data/web_static/current /data/web_static/releases/test
+cd web_static/
+ls
+cd releases/
+ls
+ln -sf data/web_static/releases/test/ /data/web_static/current
+ln -sf /data/web_static/current test/ /data/web_static/current
+cd ../
+mkdir current
+ln -sf /data/web_static/current test/ /data/web_static/current
+cd ../
+ln -sf /data/web_static/current test/ /data/web_static/current
+ls
+cd web_static/
+ls
+ln -sf data/web_static/current test/ data/web_static/current
+cd
+pip3 install fabric
+python -m pip install requests
+python3 -m pip install requests
+chmod +x 0-gather_data_from_an_API.py 
+./0-gather_data_from_an_API.py 
+chmod +x 0-gather_data_from_an_API.py 
+./0-gather_data_from_an_API.py 
+?$
+$?
+./0-gather_data_from_an_API.py 
+pip install requests
+pip3 install requests
+python3
+python3 --version
+python //wsl$/Ubuntu-22.04/root/holberton-system_engineering-devops/0x15-api/0-gather_data_from_an_API.py
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -h
+python3 -m pip install -h
+python3
+pip3 install pytho
+pip3 install python
+pip3 install python10
+python3
+pip install requests
+python3
+cd
+pip3 install pycodestyle
+pycodestyle 0-gather_data_from_an_API.py 
+git add 0-gather_data_from_an_API.py README.md 
+git commit -m"first push"
+git push
+git add 0-gather_data_from_an_API.py 
+git commit -m"simpler"
+git push
+git add 1-export_to_CSV.py 
+git commit -m"try 1"
+git push
+git add 2-export_to_JSON.py 3-dictionary_of_list_of_dictionaries.py 
+git commit -m"2 and 3"
+git push
+cd
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo npm install semistandard --global
+install npm
+apt get  npm
+apt-get  npm
+sudo apt install npm
+git pull
+cat cisfun
+vim cisfun
+chmod +x 0-readme.js 
+./0-readme.js 
+git pull
+sudo npm install axios --global
+npm install axios
+npm -v
+sudo apt-get install nodejs
+npm -v
+sudo snap install node --classic
+sudo apt install nodejs
+ssh 338ebbe7e71d@338ebbe7e71d.90c49c1f.hbtn-cod.io
+ssh 338ebbe7e71d@338ebbe7e71d.90c49c1f.hbtn-cod.io
+ls -l
+chmod +x 0-setup_web_static.sh 
+git add 0-setup_web_static.sh 
+git commit -m"0"
+git push
+git add 0-setup_web_static.sh 
+git commit -m"0"
+git push
+git add 0-setup_web_static.sh
+git commit -m"0"
+git push
+git add 0-setup_web_static.sh
+git pull
+git add 0-setup_web_static.sh 
+git commit -m"0"
+git push
+git add -a
+git commit -m"0"
+git push
+git pull
+git merge
+git add 0-setup_web_static.sh 
+git commit -m"0"
+git push
+git pull
+git config pull.rebase false
+git pull
+vim README.md 
+git pull
+git stash --all
+git add 0-setup_web_static.sh 
+git commit -m"0"
+git push
+git pull
+git push
+git status
+gt restore --all
+git restore --all
+git restore -m"0"
+git restore --staged
+git restore --staged 1-pack_web_static.py
+cd
+python -m unittest discover
+python3 -m unittest discover
