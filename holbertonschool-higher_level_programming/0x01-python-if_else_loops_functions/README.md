@@ -1,2 +1,0 @@
-#General 
-python loops 
