@@ -455,3 +455,71 @@ git restore --staged 1-pack_web_static.py
 cd
 python -m unittest discover
 python3 -m unittest discover
+git status
+git checkout -- . 
+git status
+ls -la
+git add 0-setup_web_static.sh 
+git commit -m"0"
+git push
+chmod +x 0-setup_web_static.sh 
+git commit -m"+x"
+git addd 0-setup_web_static.sh
+git add 0-setup_web_static.sh
+git commit -m"0"
+git push
+git add 1-pack_web_static.py 
+git commit -m"1"
+chmod +x 1
+chmod +x 1-pack_web_static.py 
+git add 1-pack_web_static.py 
+git commit -m"tgz""
+
+git commit -m"tgz"
+git push
+chmod +x 2-do_deploy_web_static.py 
+git add 2-do_deploy_web_static.py 
+git commit -m"run on remote"
+git push
+git add 2-do_deploy_web_static.py 
+git commit -m"2"
+git push
+chmod +x 3-deploy_web_static.py 
+git add 3-deploy_web_static.py 
+git commit -m"3"
+"git push
+git push
+git add 3-deploy_web_static.py 
+git commit -m"fix"
+git push
+git add 3-deploy_web_static.py 
+git commit -m"fix"
+git push
+git add 100-clean_web_static.py 
+git commit -m"100"
+git pusj
+git push
+git add 100-clean_web_static.py 
+git commit -m"100"
+git push
+chmod +x 101-setup_web_static.pp 
+git commit -m"nginx setup with puppet"
+git add 101-setup_web_static.pp 
+git commit -m"nginx setup with puppet"
+git push
+gi tadd .
+gitadd .
+git add .
+git commit -m"*"
+cd ../
+git add 0x07-python-test_driven_development/
+git commit -m"teest driven"
+cd
+git checkout -- . 
+git checkout -- . 
+git checkout -- . 
+git push
+git add .
+git ocmmit -m"test driven"
+git commit -m"test driven"
+git checkout -- . 
