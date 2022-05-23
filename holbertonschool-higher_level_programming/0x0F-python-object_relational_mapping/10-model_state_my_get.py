@@ -1,28 +1,21 @@
 #!/usr/bin/python3
-"""
-Script that lists all State objects from the database
-"""
+"""script that lists all State objects from the database hbtn_0e_6_usa"""
 
+
+import sqlalchemy
+from sqlalchemy import create_engine
 from sys import argv
 from model_state import Base, State
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine
 
-if __name__ == "__main__":
-
-    user = argv[1]
-    password = argv[2]
-    database = argv[3]
-    state_name = argv[4]
-
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format
-                           (user, password, database), pool_pre_ping=True)
+if __name__ == '__main__':
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
+                           .format(argv[1], argv[2], argv[3]))
     Base.metadata.create_all(engine)
-
     session = Session(engine)
-    state = session.query(State).filter(State.name == state_name).first()
-    if state is not None:
-        print("{}".format(state.id))
+    first = session.query(State).first()
+    if (first is not None):
+        print("{}: {}".format(first.id, first.name))
     else:
-        print("Not found")
+        print("Nothing")
     session.close()
