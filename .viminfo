@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1652917976,,"wq"
+|2,0,1653270606,,"wq"
 :wq!!
 |2,0,1652479982,,"wq!!"
 :wqù
@@ -31,40 +31,58 @@
 # Registers:
 
 # File marks:
-'0  92  0  ~/AirBnB_clone_v2/README.md
-|4,48,92,0,1652917976,"~/AirBnB_clone_v2/README.md"
-'1  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,49,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
-'2  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,50,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+'0  1  0  ~/holbertonschool-higher_level_programming/.git
+|4,48,1,0,1653270606,"~/holbertonschool-higher_level_programming/.git"
+'1  92  0  ~/AirBnB_clone_v2/README.md
+|4,49,92,0,1652917976,"~/AirBnB_clone_v2/README.md"
+'2  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,50,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 '3  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
 |4,51,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
-'4  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,52,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
-'5  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,53,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
-'6  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,54,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+'4  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,52,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+'5  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,53,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+'6  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,54,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 '7  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
 |4,55,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
-'8  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,56,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
-'9  1  0  ~/AirBnB_clone_v2/web_flask/6-number_odd_or_even.py
-|4,57,1,0,1652459429,"~/AirBnB_clone_v2/web_flask/6-number_odd_or_even.py"
+'8  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,56,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+'9  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
+|4,57,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
 
 # Jumplist (newest first):
+-'  1  0  ~/holbertonschool-higher_level_programming/.git
+|4,39,1,0,1653270606,"~/holbertonschool-higher_level_programming/.git"
 -'  92  0  ~/AirBnB_clone_v2/README.md
 |4,39,92,0,1652917976,"~/AirBnB_clone_v2/README.md"
+-'  92  0  ~/AirBnB_clone_v2/README.md
+|4,39,92,0,1652917976,"~/AirBnB_clone_v2/README.md"
+-'  1  0  ~/AirBnB_clone_v2/README.md
+|4,39,1,0,1652917933,"~/AirBnB_clone_v2/README.md"
 -'  1  0  ~/AirBnB_clone_v2/README.md
 |4,39,1,0,1652917933,"~/AirBnB_clone_v2/README.md"
 -'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
 |4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 -'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
 |4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 -'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
 |4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 -'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
 |4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 -'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
 |4,39,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 -'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
@@ -77,6 +95,14 @@
 |4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
 |4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
+-'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
+|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
 -'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
 |4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
 -'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
@@ -93,6 +119,38 @@
 |4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
 -'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
 |4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
+-'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
+|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
 -'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
 |4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
 -'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
@@ -141,120 +199,67 @@
 |4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
 |4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 -'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479972,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
--'  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,39,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
+|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
+|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/holbertonschool-higher_level_programming/.git
+	*	1653270606	0
+	"	1	0
+	^	1	0
 
 > ~/AirBnB_clone_v2/README.md
 	*	1652917975	0
