@@ -523,3 +523,110 @@ git add .
 git ocmmit -m"test driven"
 git commit -m"test driven"
 git checkout -- . 
+git add .
+git commit -m"engine mod and test"
+git push
+git branch -b
+git branch -c
+git branch -a
+git checkout storage_get_count 
+git add tests/test_models/test_engine/test_db_storage.py tests/test_models/test_engine/test_file_storage.py
+git add .
+git commit -m"engine mod and tests"
+cd ../ ../
+git add tests/test_models/test_engine/test_db_storage.py tests/test_models/test_engine/test_file_storage.py
+cd ../../
+git add tests/test_models/test_engine/test_db_storage.py tests/test_models/test_engine/test_file_storage.py
+git commit -m"engine mod and tests"
+git push
+git pull
+git pull ./ storage_get_count 
+git pull
+git push
+git push --set-upstream origin storage_get_count
+git pull 
+git branch --set-upstream-to=origin/storage_get_count
+git pull 
+git config pull.rebase false
+git pull 
+git push
+git status
+git add test_db_storage.py test_file_storage.py 
+git add test_db_storage.py test_file_storage.py ../../../models/engine/*
+git commit -m"filestroage var"
+git push
+git diff HEAD
+git diff 
+cd ../../../
+git diff 
+git diff HEAD^ HEAD
+git diff HEAD
+git show
+git diff HEAD~2 HEAD
+git add .
+git commit -m"storage"
+cd models/engine/
+git add db_storage.py file_storage.py 
+git commit -m"improve storage"
+cd 0x07-python-test_driven_development/
+git add .
+git commit -m"0"
+cd
+git add -a
+git add -A
+git commit -m"v3"
+git push
+git add app.py 
+git commit -m"404 error handler"
+git push
+git pull
+chmod +x states.py 
+git commit -m"state views"
+git add states.py __init__.py 
+git commit -m"state views"
+git push
+git add __init__.py 
+git ocmmit -m"view in init"
+git commit -m"view in init"
+git push
+pip3 install flask_cors
+git add amenities.py 
+git commit -m"amenities views"
+git push
+C:/Users/Seif/AppData/Local/Programs/Python/Python310/python.exe
+from models import Review
+git pull
+git pull 
+git add AirBnB_clone_v3\api\v1\views\__init__.py1~
+git add AirBnB_clone_v3\api\v1\views\__init__.py
+git merge
+pip _u install flask-cors
+pip -u install flask-cors
+pip install flask-cors
+git add v1/app.py v1/views/__init__.py  v1/views/places_reviews.py 
+git commit -m"cors"
+git push
+cd ../
+cd
+pip3 install flasgger
+git add __init__.py 
+git commit -m"init"
+git push
+git pull
+git merge
+git pull
+git merge
+git pull
+git push
+git pull
+git fetch
+git pull
+git checkout main
+git pull
+git merge
+git pull
+git add __init__.py 
+git commit -m"fixedé
+git commit -m"fixed"
+git push
+git status
