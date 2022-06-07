@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #!/usr/bin/node
 const fs = require('fs');
 const file = process.argv[2];
@@ -10,6 +11,8 @@ fs.readFile(file, 'utf-8', (err, data) => {
   }
 });
 =======
+=======
+>>>>>>> ed0629124a858a4ef5e5d11aba10cebc6c2241ea
 #!/usr/bin/node
 const fs = require('fs');
 const file = process.argv[2];
@@ -19,5 +22,9 @@ fs.readFile(file, 'utf-8', (err, data) => {
   } else {
     console.log(data);
   }
+<<<<<<< HEAD
+});
+>>>>>>> ed0629124a858a4ef5e5d11aba10cebc6c2241ea
+=======
 });
 >>>>>>> ed0629124a858a4ef5e5d11aba10cebc6c2241ea
