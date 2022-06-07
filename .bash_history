@@ -630,3 +630,453 @@ git commit -m"fixedé
 git commit -m"fixed"
 git push
 git status
+git push
+ls
+ls -la
+cd 0x07-python-test_driven_development/
+cd ../
+git add 0x07-python-test_driven_development/
+rm .git
+git add 0x07-python-test_driven_development/
+git commit -m"test driven"
+git commit -a
+git push
+cd ../
+cd ../$
+cd ../
+git add 0x07-python-test_driven_development/
+git commit -m"test driven"
+git commit -a
+git push
+git branch -c
+git branch 
+git push origin main
+git push
+git remote set-url https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+git remote set-url --add https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+git remote set-url origin https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+git remote set-url main https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+vim .git
+ls -la
+cd ../
+git pull
+git pull https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+git add 8-model_state_fetch_first.py 
+git commit -m"redo"
+git commit -a
+git push
+git remote add  holbertonschool-higher_level_programming01 https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+git push
+git pull
+git push
+git merge
+git mpull
+git pull
+git pull main
+git pull main*
+git pull *main
+git pull origin
+git pull origin main
+git config pull.rebase false
+git pull origin main
+git push
+git add 8-model_state_fetch_first.py 
+git commit -m"redo"
+git commit -
+git commit -a
+git add    ../../.cache/pip/http/6/9/
+cd holbertonschool-higher_level_programming/
+git add 0x07-python-test_driven_development/
+git commit -m"test driven"
+git commit -a
+git add 0x07-python-test_driven_development/
+git commit -a
+ls
+cd holbertonschool-higher_level_programming/
+ls
+git pull
+ls
+cd 
+ls
+cp -r holbertonschool-higher_level_programming/ test
+ls
+cd test/
+ls
+cd
+ls
+rm -rf holbertonschool-higher_level_programming/
+ls
+git clone https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+cd holbertonschool-higher_level_programming/
+ls
+git reset 4f3d58da4685ee5751b8d7ffc6d2ab9e24273239
+git push
+git reset 4f3d58da4685ee5751b8d7ffc6d2ab9e24273239
+git push -f
+clear
+git reset 4f3d58da4685ee5751b8d7ffc6d2ab9e24273239
+git push -f
+git reset 3ea796204a9a034f40f1fb1587783db5e84b5f8d
+git push -f
+git reset 9e9ca8b2670776f8f432ffcd635af10b27b57d10
+git push -f
+cd
+ls
+rm -rf holbertonschool-higher_level_programming/
+git clone https://github.com/stellarAlien/holbertonschool-higher_level_programming.git
+ls
+cd holbertonschool-higher_level_programming/
+ls
+cd
+ls
+cd test/
+ls
+ls ../holbertonschool-higher_level_programming/
+cp -r 0x14-javascript-web_scraping/ ../holbertonschool-higher_level_programming/
+ls
+cd holbertonschool-higher_level_programming/
+ls
+git reset 4f3d58da4685ee5751b8d7ffc6d2ab9e242732391~
+git reset 4f3d58da4685ee5751b8d7ffc6d2ab9e24273239
+git push -f
+git reset 4f3d58da4685ee5751b8d7ffc6d2ab9e24273239
+git push -f
+git reset 4f3d58da4685ee5751b8d7ffc6d2ab9e24273239
+git push -f
+git pull
+git reset 3ea796204a9a034f40f1fb1587783db5e84b5f8d1~
+cd ../
+ls
+cd holbertonschool-higher_level_programming/
+ls
+git add 0x14-javascript-web_scraping/
+git commit -m"web scraping"
+git push
+cd
+pipenv install django
+apt install pipenv
+git add 0-script.js README.md 
+git ocmmit -m"first commit"
+git commit -m"first commit"
+git pusj
+git push
+git add 1-script.js 
+git commit -m"1"
+git push
+git add 2-script.js 3-script.js 4-script.js 5-script.js 6-script.js 7-script.js 8-script.js 
+git commit -m"jquery"
+git push
+git add 9-script.js 
+git commit -m"hello"
+git push
+git add 101-script.js 102-script.js 
+git add 101-script.js 
+git commmit -m"element manage"
+git commit -m"element manage"
+git push
+pip3 insttall scrapy_rss
+sudo apt-get install -y python3-lxml
+sudo pip3 install flasgger
+sudo pip3 install pathlib2
+git clone https://github.com/stellarAlien/AirBnB_clone_v4.git
+cd AirBnB_clone_v4
+git clone https://github.com/jzamora5/AirBnB_clone_v3.git
+ls
+mv -r AirBnB_clone_v3/ ./
+mv *.* AirBnB_clone_v3/ ./
+mv AirBnB_clone_v3/*.*  ./
+ls
+rm -rf ./
+rm -rf .
+cd ../
+rm -rf AirBnB_clone_v4
+ls
+git clone https://github.com/stellarAlien/AirBnB_clone_v4.git
+git clone https://github.com/jzamora5/AirBnB_clone_v3.git
+cd AirBnB_clone_v4
+git clone https://github.com/jzamora5/AirBnB_clone_v3.git
+mv AirBnB_clone_v3/ ./
+mv AirBnB_clone_v3/ .
+cp -R AirBnB_clone_v3/ ./
+cp -a AirBnB_clone_v3/ ./
+cd AirBnB_clone_v3/
+cp -a . ../
+cd ../
+rm -rf AirBnB_clone_v3/
+git add -a
+git add .
+git commit -m"first commit"
+git add .
+cd web_flask/
+ls
+cp static/ templates/100-hbnb.html __init__.py  100-hbnb.py ../web_dynamic/
+cp -r static/ ../web_dynamic/
+cd ../
+git add .
+git commit -m"first commit"
+git push
+git remote set-url origin https://github.com/stellarAlien/AirBnB_clone_v4.git
+git push
+cp 1-hbnb.js 2-hbnb.js
+cp 0-hbnb.py  1-hbnb.py
+cd templates/
+cp 0-hbnb.html 1-hbnb.html
+cd ../
+cp 1-hbnb.py 2-hbnb.py
+cp 1-hbnb.html 2-hbnb.html
+cp 2-hbnb.html 3-hbnb.html
+cp 3-hbnb.html 4-hbnb.html
+cp 2-hbnb.py 3-hbnb.py
+cd static/scripts/
+cp 2-hbnb.js 3-hbnb.js
+cd ../../
+cp 3-hbnb.py 4-hbnb.py
+cp 3-hbnb.js 4-hbnb.js
+cd ../../../
+git add .
+git commit -m"templates and js
+
+git commit -m"templates and js
+  $('button').click(function () {
+    $('article').remove();
+    $.ajax({
+      type: 'POST',
+      url: 'http://0.0.0.0:5001/api/v1/places_search/',
+      data: JSON.stringify({'amenities': Object.keys(ls_amen)}),
+      contentType: 'application/json',
+      success: function (data) {
+for (let i = 0; i < data.length; i++) {
+  $('section.places').append('<article><div class="title"><h2>' + data[i].name + '</h2><div class="price_by_night">' + data[i].price_by_night + '</div></div><div class="information"><div class="max_guest"><i class="fa fa-users fa-3x" aria-hidden="true"></i><br />' + data[i].max_guest + ' Guests</div><div class="number_rooms"><i class="fa fa-bed fa-3x" aria-hidden="true"></i><br />' + data[i].number_rooms + ' Bedrooms</div><div class="number_bathrooms"><i class="fa fa-bath fa-3x" aria-hidden="true"></i><br />' + data[i].number_bathrooms + ' Bathroom</div></div><div class="description">' + data[i].description + '</div></article>');
+}
+      }
+    });
+git commit -m"templates and js"
+git push
+HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db HBNB_API_PORT=5001 python3 -m api.v1.app
+history | grep cp -R
+history | grep cp
+git add 0-hbnb.html 
+git commit -m"fix ccache_id"
+git push
+git pull
+git clone https://github.com/getmoro/moro.git
+cd moro/
+npm link
+npm install -g moro
+cd
+install npm
+mkdir django_try1
+cd django_try1/
+cd ../
+pip install django
+django-admin startproject django_try1/
+django-admin startproject django_try1
+cd django_try1/
+django-admin startproject django_try1
+cd django_try1/
+django-admin startapp boards
+virtualenv django_try1/
+git add README.md 0-subs.py 
+git commit -m"0"
+git add README.md 0-subs.py 
+git commit -m"0"
+git push
+git add 0-main.py 
+chmod +x *
+git add 0-subs.py 
+git commit -m"change permissions"
+git push
+./0-main.py 
+./0-main.py  programming
+python3
+git add 0-subs.py 1-top_ten.py 
+git commit -m"
+git commit -m"api advanced"
+git push
+pycodestyle 1-top_ten.py 
+git add 1-top_ten.py 
+git commit -m"new line"
+git push
+pycodestyle 0-
+pycodestyle 0-subs.py 
+git add 0-subs.py 
+git commit -m"0"
+git push
+install preddit
+pip3 praw
+pip3 install praw
+python3
+history | grep startapp
+django startproject scraper
+django-admin startproject scraper
+cd scraper/
+django-admin startapp scraping
+pip3 install news-api
+python -m pip install newsapi-python
+python3 -m pip install newsapi-python
+which python
+which python3
+C:/Users/Seif/AppData/Local/Programs/Python/Python310/python.exe //wsl$/Ubuntu-22.04/root/scraper/scraping/apps.py
+which django
+python3
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+sudo apt-get install -y python3-venv
+python3 -m venv env
+source env/bin/activate
+'/mnt/c/wsl/Ubuntu-22.04/root/scraper/scraping/apps.py'
+./apps.py 
+which python3
+which newsapi
+
+python3
+chmod +x apps.py 
+./apps.py 
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+echo $VIRTUAL_ENV
+cd
+echo $VIRTUAL_ENV
+source env/bin/activate
+echo $VIRTUAL_ENV
+C:/Users/Seif/AppData/Local/Programs/Python/Python310/python.exe -m pip install -U flake8
+./apps.py 
+./apps.py
+pip install --upgrade orjson
+vim apps.py 
+python3
+chmod +x apps.py 
+./apps.py 
+pycodestyle 2-recurse.py 
+git add 2-recurse.py 
+git commit -m"2"
+git push
+git add 2-recurse.py
+git commit -m"after value"
+git push
+git add 2-recurse.py 
+git commit -m"2"
+git push
+git add 2-recurse.py 
+git commit -m"params"
+git push
+C:/Users/Seif/AppData/Local/Programs/Python/Python310/python.exe -m pip install -U pycodestyle
+pip install gnews
+./apps.py 
+pip3 install newspaper3k
+chmod +x newpaper_app.py 
+./newpaper_app.py 
+./apps.py 
+./newpaper_app.py 
+./apps.py 
+./newpaper_app.py 
+sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev
+./newpaper_app.py 
+sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev
+pip install linkpreview
+chmod +x preview.py 
+./preview.py 
+pip3 install linkpreview
+pip3 install lxml
+./preview.py 
+./apps.py 
+\\wsl$\Ubuntu-22.04\root\scraper\scraping\apps.py
+./apps.py 
+./newpaper_app.py 
+chmod +x preview.py 
+./preview.py 
+./apps.py 
+../a
+./apps.py 
+C:/Users/Seif/AppData/Local/Programs/Python/Python310/python.exe
+return reverse("user _detail", kwargs={"pk": self.pk})
+puppet-lint 0-strace_is_your_friend.pp 
+git add README.md 0-strace_is_your_friend.pp 
+git commit -m"strace"
+git push
+chmod +x 0-strace_is_your_friend.pp 
+git add 0-strace_is_your_friend.pp 
+git commit -m"0"
+git push
+puppet-lint 0-strace_is_your_friend.pp 
+chmod +x 0-strace_is_your_friend.pp 
+git add 0-strace_is_your_friend.pp 
+git commit -m"0"
+git add 0-strace_is_your_friend.pp 
+git commit -m"0"
+git add 0-strace_is_your_friend.pp 
+git push
+git add 0-strace_is_your_friend.pp 
+git commit -m"provider "
+git push
+puppet-lint 0-strace_is_your_friend.pp 
+ls
+ls -l
+git add 0-strace_is_your_friend.pp 
+git commit -m"provider "
+git push
+git add 0-strace_is_your_friend.pp 
+git commit -m"provider "
+git push
+cd
+git clone https://github.com/stellarAlien/Fix_My_Code_Challenge
+cd Fix_My_Code_Challenge/
+ls
+mkdir 0x01-challenge
+cd 0x01-challenge/
+chmod +x user.py 
+./user.py 
+apt-get install -y ruby
+help liny
+help lint
+puppet-lint root\holberton-system_engineering-devops\0x17-web_stack_debugging_3\0-strace_is_your_friend.pp
+puppet-lint holberton-system_engineering-devops\0x17-web_stack_debugging_3\0-strace_is_your_friend.pp
+git clone https://github.com/holbertonschool/0x01-Fix_My_Code_Challenge.git
+cd 0x01-Fix_My_Code_Challenge/
+ls
+git add 
+git commit -m"fixed"
+git push
+cd ../
+git add 0x01-Fix_My_Code_Challenge/
+git commit -m"1"
+git piush
+git push
+sudo apt-get install -y apache2-utils
+ab -c 100 -n 2000 localhost/
+nginx version
+sudo apt install nginx
+nginx version
+ab -c 100 -n 2000 localhost/
+lsof
+file-nr
+grep 'file-nr' /etc/nginx/nginx.conf
+grep 'X-header' /etc/nginx/nginx.conf
+grep 'server' /etc/nginx/nginx.conf
+grep 'limit' /etc/nginx/nginx.conf
+grep 'file' /etc/nginx/nginx.conf
+sudo lsof
+ulimit -a
+vim /etc/default/nginx 
+puppet-lint 0-the_sky_is_the_limit_not.pp 
+chmod +x 0-the_sky_is_the_limit_not.pp 
+./0-the_sky_is_the_limit_not.pp 
+puppet-lint 0-the_sky_is_the_limit_not.pp 
+./0-the_sky_is_the_limit_not.pp 
+puppet-lint 0-the_sky_is_the_limit_not.pp 
+./0-the_sky_is_the_limit_not.pp 
+puppet -V
+apt install puppet
+./0-the_sky_is_the_limit_not.pp 
+puppet
+puppet-lint 
+puppet-lint 0-the_sky_is_the_limit_not.pp 
+git add 0-the_sky_is_the_limit_not.pp README.md ulimit.bmp 
+git ocmmit -m"file limit'
+git ocmmit -m"file limit"
+git commit -m"file limit"
+git push
+./0-the_sky_is_the_limit_not.pp 
+python migration makemigration
+python migration makemigrations
+python3 migration makemigrations
+python3 manage.py makemigrations
+pip3 install Flask

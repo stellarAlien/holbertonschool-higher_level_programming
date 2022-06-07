@@ -10,9 +10,12 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<ULIMIT\>
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1653270606,,"wq"
+|2,0,1654608152,,"wq"
 :wq!!
 |2,0,1652479982,,"wq!!"
 :wqù
@@ -21,6 +24,8 @@
 |2,0,1652452977,,"wqq"
 
 # Search String History (newest to oldest):
+? \<ULIMIT\>
+|2,1,1654532262,,"\\<ULIMIT\\>"
 
 # Expression History (newest to oldest):
 
@@ -31,230 +36,253 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/holbertonschool-higher_level_programming/.git
-|4,48,1,0,1653270606,"~/holbertonschool-higher_level_programming/.git"
-'1  92  0  ~/AirBnB_clone_v2/README.md
-|4,49,92,0,1652917976,"~/AirBnB_clone_v2/README.md"
-'2  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,50,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
-'3  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,51,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
-'4  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,52,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
-'5  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,53,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
-'6  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,54,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
-'7  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,55,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
-'8  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,56,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
-'9  1  0  ~/AirBnB_clone_v2/setup_mysql_dev.sql
-|4,57,1,0,1652466128,"~/AirBnB_clone_v2/setup_mysql_dev.sql"
+'0  17  6  ~/holberton_list
+|4,48,17,6,1654608152,"~/holberton_list"
+'1  1  0  ~/hnwatcher-access.log
+|4,49,1,0,1654597539,"~/hnwatcher-access.log"
+'2  5  0  /etc/default/nginx
+|4,50,5,0,1654532392,"/etc/default/nginx"
+'3  5  0  /etc/default/nginx
+|4,51,5,0,1654531786,"/etc/default/nginx"
+'4  5  0  /etc/default/nginx
+|4,52,5,0,1654531056,"/etc/default/nginx"
+'5  5  0  /etc/default/nginx
+|4,53,5,0,1654531056,"/etc/default/nginx"
+'6  5  3  /etc/default/nginx
+|4,54,5,3,1654530912,"/etc/default/nginx"
+'7  5  3  /etc/default/nginx
+|4,55,5,3,1654530912,"/etc/default/nginx"
+'8  5  3  /etc/default/nginx
+|4,56,5,3,1654530912,"/etc/default/nginx"
+'9  5  3  /etc/default/nginx
+|4,57,5,3,1654530912,"/etc/default/nginx"
 
 # Jumplist (newest first):
--'  1  0  ~/holbertonschool-higher_level_programming/.git
-|4,39,1,0,1653270606,"~/holbertonschool-higher_level_programming/.git"
--'  92  0  ~/AirBnB_clone_v2/README.md
-|4,39,92,0,1652917976,"~/AirBnB_clone_v2/README.md"
--'  92  0  ~/AirBnB_clone_v2/README.md
-|4,39,92,0,1652917976,"~/AirBnB_clone_v2/README.md"
--'  1  0  ~/AirBnB_clone_v2/README.md
-|4,39,1,0,1652917933,"~/AirBnB_clone_v2/README.md"
--'  1  0  ~/AirBnB_clone_v2/README.md
-|4,39,1,0,1652917933,"~/AirBnB_clone_v2/README.md"
--'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  2  14  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,2,14,1652791308,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791303,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  3  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,3,0,1652791301,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  1  0  ~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun
-|4,39,1,0,1652791291,"~/holbertonschool-higher_level_programming/0x14-javascript-web_scraping/cisfun"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  145  132  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,145,132,1652621517,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/AirBnB_clone_v2/data/web_static/releases/test/index.html
-|4,39,1,0,1652621471,"~/AirBnB_clone_v2/data/web_static/releases/test/index.html"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  1  0  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,1,0,1652479994,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
--'  59  401  ~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py
-|4,39,59,401,1652479982,"~/holbertonschool-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py"
+-'  17  6  ~/holberton_list
+|4,39,17,6,1654608152,"~/holberton_list"
+-'  1  0  ~/holberton_list
+|4,39,1,0,1654608141,"~/holberton_list"
+-'  1  0  ~/hnwatcher-access.log
+|4,39,1,0,1654597539,"~/hnwatcher-access.log"
+-'  1  0  ~/hnwatcher-access.log
+|4,39,1,0,1654597539,"~/hnwatcher-access.log"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654532392,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654532392,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654532392,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654532392,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531786,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531786,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531786,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531786,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531056,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531056,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531056,"/etc/default/nginx"
+-'  5  0  /etc/default/nginx
+|4,39,5,0,1654531056,"/etc/default/nginx"
+-'  5  3  /etc/default/nginx
+|4,39,5,3,1654530912,"/etc/default/nginx"
+-'  5  3  /etc/default/nginx
+|4,39,5,3,1654530912,"/etc/default/nginx"
+-'  5  3  /etc/default/nginx
+|4,39,5,3,1654530912,"/etc/default/nginx"
+-'  5  3  /etc/default/nginx
+|4,39,5,3,1654530912,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  /etc/default/nginx
+|4,39,1,0,1654530856,"/etc/default/nginx"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
+-'  1  0  ~/scraper/scraping/apps.py
+|4,39,1,0,1654174056,"~/scraper/scraping/apps.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/holberton_list
+	*	1654608151	0
+	"	17	6
+	^	17	7
+	.	17	6
+	+	17	6
+
+> ~/hnwatcher-access.log
+	*	1654597539	0
+	"	1	0
+
+> /etc/default/nginx
+	*	1654532391	0
+	"	5	0
+	^	5	1
+	.	5	1
+	+	5	4
+	+	5	1
+
+> ~/scraper/scraping/apps.py
+	*	1654174055	0
+	"	1	0
 
 > ~/holbertonschool-higher_level_programming/.git
 	*	1653270606	0
